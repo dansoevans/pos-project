@@ -19,7 +19,27 @@ header{
     left: -15px;
 
 }
+.create-item > a> i {
+    position: absolute;
+   color: rgb(162, 162, 249);
+font-size: 50px;
+bottom: 0;
+right: 10px;
 
+
+}
+
+.save > a{
+    color: black;
+}
+.item-color{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+margin-top: 8px;
+margin-right: 10px;
+}
 
 section > ul{
     align-items: center;
@@ -51,44 +71,11 @@ a.navbar-brand{
 
 
 
-/* RESPONSIVENESS */
-
-@media (max-width: 400px) {
-    .main{
-        display: flex;
-       margin:0;
-       margin-top: 20px;
-      max-height: 100vh;
-    }
-    
-header{
-    height: 70px;
-
-}
-.navbar-brand{
-    font-size: 30px;
-    text-decoration: none;
+.pros{
     display: flex;
-    justify-content: center;
-  padding-top: 10px;
-    color: black;
-    text-align: center;
+    position: relative;
 
 }
-
-section > ul > li >a {
-   
-    font-size: 50px;
-}
-section > ul > li  {
-    margin-top: 10;
-    text-decoration: none;
-    color: rgb(12, 6, 6);
-
-}
-}
-
-
 .itemList{
     display: flex;
     justify-content: space-between;
