@@ -277,3 +277,43 @@ margin-bottom: 10px;
     border-bottom: 1px solid grey;
     
 }
+
+/* RESPONSIVENESS */
+
+@media (max-width: 400px) {
+    .main{
+        display: flex;
+       margin:0;
+       margin-top: 20px;
+      max-height: 100vh;
+    }
+    
+header{
+    height: 70px;
+
+}
+legend{
+    margin: 10px;
+}
+.navbar-brand{
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  padding-top: 10px;
+    color: black;
+    text-align: center;
+
+}
+
+section > ul > li >a {
+   
+    font-size: 50px;
+}
+section > ul > li  {
+    margin-top: 10;
+    text-decoration: none;
+    color: rgb(12, 6, 6);
+
+}
+}
