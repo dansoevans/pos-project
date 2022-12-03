@@ -87,6 +87,10 @@ section > ul > li  {
 
 }
 }
+ .del > button{
+    border: none;
+ }
+
 
 .itemList{
     display: flex;
@@ -277,6 +281,16 @@ margin-bottom: 10px;
     border-bottom: 1px solid grey;
     
 }
+
+.del{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(192, 187, 178);
+    padding-top: 5px;
+    background-color: rgb(234, 231, 231);
+    
+}
+
 
 /* RESPONSIVENESS */
 
