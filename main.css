@@ -80,7 +80,7 @@ section > ul > li >a {
     font-size: 50px;
 }
 section > ul > li  {
-    margin-top: 10px;
+    margin-top: 0;
     text-decoration: none;
     color: rgb(12, 6, 6);
     font-size: 400px;
