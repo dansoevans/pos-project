@@ -71,7 +71,8 @@ a.navbar-brand{
     display: flex;
     justify-content: center;
   padding-top: 10px;
-    color: black;
+    color: rgb(255, 4, 4);
+    text-align: center;
 
 }
 
@@ -83,6 +84,6 @@ section > ul > li  {
     margin-top: 0;
     text-decoration: none;
     color: rgb(12, 6, 6);
-    font-size: 400px;
+    
 }
 }
