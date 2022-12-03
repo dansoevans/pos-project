@@ -322,4 +322,9 @@ section > ul > li  {
     color: rgb(12, 6, 6);
 
 }
+.colors > div {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+      }
 }
