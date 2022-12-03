@@ -65,7 +65,7 @@ header{
     height: 70px;
 
 }
-a.navbar-brand{
+.navbar-brand{
     font-size: 30px;
     text-decoration: none;
     display: flex;
@@ -81,9 +81,199 @@ section > ul > li >a {
     font-size: 50px;
 }
 section > ul > li  {
-    margin-top: 0;
+    margin-top: 10;
     text-decoration: none;
     color: rgb(12, 6, 6);
 
 }
+}
+
+.itemList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px;
+
+}
+.pro-n-sto{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.editables{
+    display: block;
+    margin: 12px;
+}
+.head-item{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sold-by{
+    display: block;
+}
+.name-assign{
+margin-bottom: 30px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .ss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .form-checks{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .colors{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+  }
+  .colors > div {
+margin-bottom: 10px;
+
+  }
+
+  .grey{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+  }
+  .red{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 27, 69);
+  }
+  .pink{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 41, 144);
+  }
+  .orange{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(251, 108, 20);
+  }
+  .lemon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(176, 255, 134);
+  }
+  .green{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(49, 135, 6);
+  }
+  .blue{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(35, 72, 255);
+  }
+  .violet{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(131, 51, 252);
+  }
+
+  .sqr{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(191, 188, 188);
+  }
+  .cir{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(191, 188, 188);
+
+    border-radius: 50%;
+  }
+  .zig{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(191, 188, 188);
+    border-radius: 10%;
+
+  }
+  .polygon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(191, 188, 188);
+    border-radius: 60px;
+  }
+  label{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #tit1{
+    border: none;
+    border-bottom: 1px solid grey;
+    
 }
