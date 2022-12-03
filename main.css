@@ -293,8 +293,14 @@ header{
 
 }
 legend{
-    margin: 10px;
+    margin: 20px;
 }
+#tit1{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
 .navbar-brand{
     font-size: 30px;
     text-decoration: none;
