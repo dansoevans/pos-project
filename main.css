@@ -14,18 +14,17 @@ header{
    margin-top: 20px;
   max-height: 100vh;
 }
-/* .containersd{
-    display: flex;
-    justify-content: center;
-    margin: 30%;
+.bi1{
+    position: absolute;
+    left: -15px;
 
-
-} */
+}
 
 
 section > ul{
     align-items: center;
     text-align: center;
+    position: relative;
 }
 section > ul > li {
     list-style: none;
@@ -35,15 +34,9 @@ section > ul > li {
 section > ul > li a {
     text-decoration: none;
     color: rgb(12, 6, 6);
+    padding-bottom:20px;
 }
-section > ul > li > a:hover{
-    color: rgb(58, 71, 255);
-    border: 1px solid rgb(162, 162, 249) ;
-    border-radius: 20px;
-    /* padding: 7px; */
-    padding: 4px 9px;
-background-color: rgb(162, 162, 249);
-}
+
 
 a.navbar-brand{
     font-size: 30px;
