@@ -14,6 +14,13 @@ header{
    margin-top: 20px;
   max-height: 100vh;
 }
+/* .containersd{
+    display: flex;
+    justify-content: center;
+    margin: 30%;
+
+
+} */
 
 
 section > ul{
@@ -87,9 +94,6 @@ section > ul > li  {
 
 }
 }
- .del > button{
-    border: none;
- }
 
 
 .itemList{
@@ -279,7 +283,7 @@ margin-bottom: 10px;
   #tit1{
     border: none;
     border-bottom: 1px solid grey;
-    
+    width: 100%;
 }
 
 .del{
@@ -288,7 +292,7 @@ margin-bottom: 10px;
     border: 1px solid rgb(192, 187, 178);
     padding-top: 5px;
     background-color: rgb(234, 231, 231);
-    
+    cursor: pointer;
 }
 
 

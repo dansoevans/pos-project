@@ -133,14 +133,14 @@
         </div>
       
         <hr>
-        
-            <div class="del">
-                <button onclick="promptHandler()">
+        <a  style="text-decoration: none;" href="index.html">
+            <div  onclick="promptHandler()" class="del">
+                
                      <span> <i class="bi bi-trash"></i></span>
                 <span> DELETE ITEM</span>
-                </button>
-               
+              
             </div>
+          </a>
             
     </form>
     
@@ -156,8 +156,10 @@
     <script>
      
       function promptHandler(){
-          var prompter = alert(" Delete item   Do you want Delete item");
-       alert(prompter);
+          var prompter = confirm( "      " + " DELETE ITEM \n  Do you want Delete item ?");
+      if(prompter == false){
+        event.preventDefault();
+      }
         return prompter;
       }
       
