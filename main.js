@@ -10,3 +10,7 @@ if(prompter == false){
 }
   return prompter;
 }
+var hide = docum
+function goHide(){
+
+}

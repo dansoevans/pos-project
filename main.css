@@ -13,6 +13,7 @@ header{
    margin:30% ;
    margin-top: 20px;
   max-height: 100vh;
+
 }
 .bi1{
     position: absolute;
@@ -53,12 +54,14 @@ section > ul{
 section > ul > li {
     list-style: none;
     font-size: xx-large;
+    margin-bottom: 20px;
 
 }
 section > ul > li a {
     text-decoration: none;
     color: rgb(12, 6, 6);
     padding-bottom:20px;
+    font-size: larger;
 }
 
 
@@ -321,10 +324,10 @@ legend{
 
 section > ul > li >a {
    
-    font-size: 50px;
+    font-size: 40px;
 }
 section > ul > li  {
-    margin-top: 10;
+    margin-top:25px auto;
     text-decoration: none;
     color: rgb(12, 6, 6);
 
