@@ -17,6 +17,7 @@ header{
 .bi1{
     position: absolute;
     left: -15px;
+  
 
 }
 .create-item > a> i {
@@ -279,7 +280,12 @@ margin-bottom: 10px;
 }
 
 
+
+
+
+
 /* RESPONSIVENESS */
+
 
 @media (max-width: 500px) {
     .main{
@@ -328,4 +334,13 @@ section > ul > li  {
     width: 60px;
     height: 60px;
       }
+      .bi3{
+        font-size: 25px;
+        
+    }
+    a.navbar-brand{
+      font-size: 25px;
+ 
+  
+  }
 }
