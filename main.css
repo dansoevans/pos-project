@@ -8,12 +8,20 @@ header{
 }
 
 .main{
-  display: flex;
+   display: inline-table; 
   justify-content: center;
- margin:30% ;
+ margin:35% ;
  margin-top: 20px;
 max-height: 100vh;
 position: relative;
+}
+.main-index{
+width: fit-content;
+margin-top: -60px;
+  margin: 44%;
+  justify-content: center;
+  text-align: center;
+ 
 }
 
 .bi1{
@@ -191,56 +199,59 @@ input:checked + .slider:before {
   justify-content: space-between;
 
 }
-
+/******************ALL items************************************* */
 .colors{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
  
 }
-.colors > div {
+.colors > input {
 margin-bottom: 10px;
 
 }
-
+div .shapes{
+  width: 50px;
+  height: 50px;
+}
 .grey{
   width: 50px;
   height: 50px;
-  background-color: gray;
+accent-color: gray;
 }
 .red{
   width: 50px;
   height: 50px;
-  background-color: rgb(255, 27, 69);
+accent-color: rgb(255, 27, 69);
 }
 .pink{
   width: 50px;
   height: 50px;
-  background-color: rgb(235, 41, 144);
+accent-color: rgb(235, 41, 144);
 }
 .orange{
   width: 50px;
   height: 50px;
-  background-color: rgb(251, 108, 20);
+accent-color: rgb(251, 108, 20);
 }
 .lemon{
   width: 50px;
   height: 50px;
-  background-color: rgb(176, 255, 134);
+accent-color: rgb(176, 255, 134);
 }
 .green{
   width: 50px;
   height: 50px;
-  background-color: rgb(49, 135, 6);
+accent-color: rgb(49, 135, 6);
 }
 .blue{
   width: 50px;
   height: 50px;
-  background-color: rgb(35, 72, 255);
+accent-color: rgb(35, 72, 255);
 }
 .violet{
   width: 50px;
   height: 50px;
-  background-color: rgb(131, 51, 252);
+accent-color: rgb(131, 51, 252);
 }
 
 .sqr{
@@ -289,6 +300,69 @@ label{
 }
 
 
+
+.radio_tabs{
+	height: 60px;
+	background: #fff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+    padding: 18px;
+    display: flex;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .radio_tabs label{
+	margin-right: 15px;
+	display: block;
+	position: relative;
+	cursor: pointer;
+	padding-left: 28px;
+}
+
+.wrapper .radio_tabs .radio_mark:before{
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 0;
+	background: url("radio_icon.png") no-repeat 0 0;
+	width: 22px;
+	height: 22px;
+}
+
+.wrapper .radio_tabs label .input{
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.wrapper .radio_tabs label .input:checked ~ .radio_mark{
+	color: #865dff;
+}
+
+.wrapper .radio_tabs label .input:checked ~ .radio_mark:before{
+	background-position: 0 -23px;
+	width: 22px;
+	height: 22px;
+}
+
+.wrapper .content{
+	width: 100%;
+	height: calc(100% - 70px);
+	background: #fff;
+	border-radius: 5px;
+	padding: 18px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+
+.wrapper .content p{
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
 
 
 /*
@@ -505,6 +579,10 @@ section > ul > li  {
   margin-bottom: 10px;
   width: 40px;
   height: 40px;
+    }
+    div .shapes{
+      width: 40px;
+      height: 40px;
     }
     .bi3{
       font-size: 25px;
