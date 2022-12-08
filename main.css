@@ -5,6 +5,7 @@
 }
 header{
   background-color: rgb(162, 162, 249);
+
 }
 
 .main{
@@ -21,6 +22,13 @@ width: 300px ;
   justify-content: center;
   text-align: center;
  
+}
+.all-items-nav{
+  display: flex;
+  background-color: rgb(162, 162, 249);
+  height: 70px;
+  align-items: center;
+
 }
 
 .bi1{
@@ -90,7 +98,9 @@ padding-top: 10px;
 
 
 
-
+.items{
+  border-bottom: 1px solid rgb(98, 98, 98);
+}
 .pros{
   display: flex;
   position: relative;
@@ -202,11 +212,12 @@ input:checked + .slider:before {
 .colors{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  
  
 }
 .colors > input {
 margin-bottom: 10px;
-
+justify-content: space-around;
 }
 div .shapes{
   width: 50px;
@@ -297,8 +308,26 @@ label{
   background-color: rgb(234, 231, 231);
   cursor: pointer;
 }
+ .radio_2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first-rad{
+  width: 120px;
+  height: 108px;
+  background-color: rgba(221, 221, 221,40%);
+  position: relative;
 
-
+}
+.bi5{
+  position: absolute;
+ bottom: 20px;
+ font-size: 50px;
+ left: 35px;
+ color: rgb(146, 146, 146);
+ 
+}
 
 .radio_tabs{
 	height: 60px;
@@ -531,7 +560,7 @@ ul.CTAs a {
 /* RESPONSIVENESS */
 
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .main{
       display: flex;
      margin:0;
@@ -574,15 +603,6 @@ section > ul > li  {
 
 
 }
-.colors > input {
-  margin-bottom: 10px;
-  width: 40px;
-  height: 40px;
-    }
-    div .shapes{
-      width: 40px;
-      height: 40px;
-    }
     .bi3{
       font-size: 25px;
       
@@ -608,4 +628,5 @@ section > ul > li  {
 
 
 }
+
 }
