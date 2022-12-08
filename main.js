@@ -10,7 +10,19 @@ if(prompter == false){
 }
   return prompter;
 }
-var hide = docum
-function goHide(){
 
+var rr = document.getElementById('hider');
+let a;
+function doIt(){
+  if(a==1){
+    rr.style.display = "inline";
+    return a=0;
+  }else{
+    rr.style.display = "none";
+    return a =1;
+
+  }
 }
+
+
+ 
